@@ -8,7 +8,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 40vh;
 }
 
 .navbar{
@@ -115,7 +115,7 @@ ul li a:hover{
 
 .content{
     width: 1200px;
-    height: auto;
+    height: none;
     margin: auto;
     color: #fff;
     position: relative;
@@ -124,7 +124,8 @@ ul li a:hover{
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: Arial;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
     letter-spacing: 1.2px;
     line-height: 30px;
 }
@@ -135,6 +136,7 @@ ul li a:hover{
     padding-left: 20px;
     margin-top: 9%;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .content .cn{
@@ -263,4 +265,10 @@ ul li a:hover{
 }
 .icons ion-icon:hover{
     color: #ff7200;
+}
+.img{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+
+    
 }
